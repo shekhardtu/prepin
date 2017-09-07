@@ -1,0 +1,1043 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js" crossorigin="anonymous"></script>
+
+<div class="pop-up__cntnr popup-cntnt js-pop-up__cntnr">
+<div class="pop-up__cls-btn js-pop-up__cls-btn">&#10005;</div>
+<div class="zoom-viewer clearfix rvw-vid-wrpr">
+<div class="zoom-viewer__display">
+<div class="zoom-view__img js-zoom-view__img" data-load-thumb="1" style="text-align: center; height: 395px; position: relative; padding: 10px 0;">
+<img class="zoom-viewer__img-src js-zoom-viewer__img-src">
+<div class="zoom-viewer__arrow zoom-viewer__arrow--prev"></div>
+<div class="zoom-viewer__arrow zoom-viewer__arrow--next"></div>
+</div>
+<!--New Code [START]-->
+<div class="zoom-viewer__thumb-wrpr js-zoom-viewer__thumb-wrpr">
+<div class="zoom-viewer__thumb-cntnr js-zoom-viewer__thumb-cntnr">
+<div class="zoom-viewer__thumb js-zoom-viewer__thumb">
+</div>
+</div>
+</div>
+<!--New Code [END]-->
+</div>
+<div class="zoom-viewer__clctn js-zoom-viewer__clctn">
+</div>
+</div>
+<div class="popup__ad-src">
+<div id='div-gpt-in-popup' style='margin:auto;text-align:center'> <script> googletag.cmd.push(function() { googletag.display('div-gpt-in-popup'); }); </script> </div>
+</div>
+</div>
+<script>
+  var galleryData = (function () {
+    var galleryData ={"inventoryImages":{"order":1,"count":"5","preview":"https:\/\/assets.mspcdn.net\/t_c-desktop-zoom,f_auto,q_auto,d_c:noimage.jpg\/c\/11605-57-1.jpg","all":[{"url":"https:\/\/assets.mspcdn.net\/t_c-desktop-zoom,f_auto,q_auto,d_c:noimage.jpg\/c\/11605-57-1.jpg","order":1,"caption":""},{"url":"https:\/\/assets.mspcdn.net\/t_c-desktop-zoom,f_auto,q_auto,d_c:noimage.jpg\/c\/11605-57-2.jpg","order":2,"caption":""},{"url":"https:\/\/assets.mspcdn.net\/t_c-desktop-zoom,f_auto,q_auto,d_c:noimage.jpg\/c\/11605-57-3.jpg","order":3,"caption":""},{"url":"https:\/\/assets.mspcdn.net\/t_c-desktop-zoom,f_auto,q_auto,d_c:noimage.jpg\/c\/11605-57-4.jpg","order":4,"caption":""},{"url":"https:\/\/assets.mspcdn.net\/t_c-desktop-zoom,f_auto,q_auto,d_c:noimage.jpg\/c\/11605-57-5.jpg","order":5,"caption":""}],"type":"image","collection":"Product Images"},"customerReviewVideos":{"order":2,"count":6,"preview":"gD1z4pkNd0A","all":[{"url":"gD1z4pkNd0A","order":1,"caption":""},{"url":"qvKaODFFfGY","order":2,"caption":""},{"url":"le7eVErLYk4","order":3,"caption":""},{"url":"QsUL4o-t6Lc","order":4,"caption":""},{"url":"N-r8rVVap4c","order":5,"caption":""},{"url":"yK_vq4l5kdU","order":6,"caption":""}],"type":"video","collection":"Other Review Videos"}};
+    var zoomImg = $(".js-zoom-viewer__img-src"),
+      $zoomViewerDisplay = $(".js-zoom-view__img"),
+      negMarginX = -(zoomImg.width() / 2) + 'px',
+      negMarginY = -(zoomImg.height() / 2) + 'px',
+      galleryCollection = "",
+      galleryType = "js-images",
+      validGalleryData = {};
+    var DispHeight = window.innerHeight - 50;
+    DispHeight = (DispHeight - (250));
+    var marginTop = (DispHeight * 0.03);
+    var marginBottom = (DispHeight * 0.03);
+    $zoomViewerDisplay.height(DispHeight);
+    $zoomViewerDisplay.css({
+      'margin-top': marginTop + 'px',
+      'margin-bottom': marginBottom + 'px'
+    });
+
+    zoomImg.css({
+      'max-height': '100%',
+      'max-width': '100%',
+      'top': '50%',
+      'left': '50%'
+    }).css({
+      'margin-left': -(zoomImg.width() / 2) + 'px',
+      'margin-top': -(zoomImg.height() / 2) + 'px'
+    });
+    // var orgnlHght = $(".rvw-vid-wrpr").height(); 
+    // var orgnlWdth = $(".rvw-vid-wrpr").width(); 
+    var newHeight = (window.innerHeight - 120);
+    var newWidth = getRelativeWidth("16:9", newHeight);
+    newWidth = newWidth + 300;
+
+    $(".js-pop-up__cntnr").css({
+      "width": (newWidth * 0.8) + "px"
+    });
+
+
+    console.log(newWidth);
+    $(".rvw-vid-wrpr").css({
+      "height": (window.innerHeight - 120) + "px",
+      "width": (newWidth * 0.8) + "px"
+    });
+
+    $(".zoom-viewer__display").css({
+      "width": ($(".zoom-viewer__display").offsetParent().width() * 1) - 202 + "px",
+    });
+
+    $(".js-pop-up__cntnr").css("height", (window.innerHeight) + "px");
+    for (var collections in galleryData) {
+      if (galleryData[collections].count) {
+        if (galleryData[collections].type == "video") {
+          galleryData[collections].preview = 'https://img.youtube.com/vi/' + galleryData[
+            collections].preview + '/0.jpg';
+          galleryType = "js-videos";
+        } else {
+          galleryType = '';
+        }
+        galleryCollection +=
+          '<div class="zoom-viewer__clctn__glry js-zoom-viewer__clctn__glry ' + galleryType +
+          '" data-collection-id="' +
+          galleryData[collections].order + '" data-collection-label="' + collections +
+          '" data-src="' + galleryData[collections].preview +
+          '">\
+                    <div class="zoom-viewer__clctn--lbl">' + galleryData[
+            collections].collection + ' (' + galleryData[collections].count +
+          ')\
+                    </div>\
+                    <div class="zoom-viewer__clctn--thumb" style="background-image:url(' +
+          galleryData[collections].preview +
+          ')">\
+                        <div class="zoom-viewer__clctn--thumb-shdw" style="background-image:url(' +
+          galleryData[collections].preview + ')"></div>\
+                    </div> </div>';
+
+        validGalleryData[collections] = galleryData[collections];
+      }
+    }
+
+    $(".js-zoom-viewer__clctn").append(galleryCollection);
+    return validGalleryData;
+  }());
+
+
+  var $doc = $(document),
+    $zoomViewerDisplay = $(".js-zoom-view__img"),
+    loadThumbId = parseInt($zoomViewerDisplay.data("load-thumb"), 10) - 1,
+    mousePosX = 0,
+    mousePosY = 0,
+    videoId = "",
+    loadThumbId = 0;
+  //console.log(videoId);
+  //console.log(loadThumbId);
+  setTimeout(function () {
+    $(".js-zoom-viewer__clctn__glry:first-child").trigger("click");
+    if (videoId != "") {
+      $('.js-videos').click();
+    } else if (loadThumbId) {
+      $(".js-zoom-viewer__thumb-item").eq(loadThumbId).click(); // Load first image while clicking on gallery or the image user clicked from PDP page
+    }
+  }, 0)
+
+
+  $doc.on("click", ".js-zoom-viewer__clctn__glry", function () {
+    var $this = $(this),
+      collectionLabel = $this.data("collection-label"),
+      collectionThumb = "",
+      videoPlayIcon,
+      navIcon = "",
+      thumbImgArr = galleryData[collectionLabel].all;
+
+    $('.zoom-viewer__clctn__glry--crnt').removeClass('zoom-viewer__clctn__glry--crnt');
+    $this.addClass('zoom-viewer__clctn__glry--crnt');
+    for (var i = 0; i < thumbImgArr.length; i++) {
+      if (galleryData[collectionLabel].type == 'video') {
+        var videoId = "data-video-id=" + thumbImgArr[i].url;
+        var imgUrl = 'https://img.youtube.com/vi/' + thumbImgArr[i].url + '/0.jpg';
+      } else {
+        var imgUrl = thumbImgArr[i].url;
+      }
+      collectionThumb +=
+        '<div class="zoom-viewer__thumb-item js-zoom-viewer__thumb-item" data-thumb-id="' +
+        thumbImgArr[i].order + '" data-src="' + imgUrl + '"\
+                    data-title="' +
+
+        thumbImgArr[i].caption + '"\
+                    data-resource="' + collectionLabel +
+        '"\
+                    data-imgurl="' + imgUrl +
+        '"\
+                    ' + videoId +
+        '>\
+                    <div class="zoom-viewer__thumb-item__img">\
+                        <div class="zoom-viewer__thumb-item__img--src" style="background-image:url(' +
+        imgUrl + ')"></div>';
+      collectionThumb += '</div>';
+      if (thumbImgArr[i].caption) {
+        collectionThumb +=
+          '<div class="zoom-viewer__thumb-item__ttl">\
+                            ' +
+          thumbImgArr[i].caption + '</div>';
+      }
+      collectionThumb += '</div>';
+    }
+
+    // Improve the code here [Start]
+    if (galleryData[collectionLabel].type == 'video' && galleryData[collectionLabel].count > 5) {
+      navIcon +=
+        ' <div class="thumbnails__arrow thumbnails__arrow--prev" data-slide="1"></div>\
+                <div class="thumbnails__arrow thumbnails__arrow--next" data-slide="1"></div>';
+    } else if (galleryData[collectionLabel].type == 'image' && galleryData[collectionLabel].count > 8) {
+      navIcon +=
+        ' <div class="thumbnails__arrow thumbnails__arrow--prev" data-slide="1"></div>\
+                <div class="thumbnails__arrow thumbnails__arrow--next" data-slide="1"></div>';
+    }
+    // Improve the code here [End]
+
+
+    $(".thumbnails__arrow").remove();
+    $(".js-zoom-viewer__thumb").empty();
+    $(".js-zoom-viewer__thumb").append(collectionThumb).css({
+      "-webkit-transform": "translateX(0)"
+    });
+    $(".js-zoom-viewer__thumb-wrpr").append(navIcon);
+
+
+
+    // Click event  on bottom image thumbsnails
+    $(".js-zoom-viewer__thumb-item").on("click", function (e) {
+      var $this = $(this),
+        imgPath = $this.data("imgurl"),
+        resource = $this.data("resource");
+      thumbId = $this.data("thumb-id"),
+        videoId = $this.data("video-id"),
+        $zoomImg = $('.js-zoom-viewer__img-src');
+      if ($this.children().hasClass('zoom-viewer__thumb-item--selected')) {
+        return;
+      }
+      resetImgToDefaults($zoomImg);
+
+      /* Remove and add video play icon and remove icon from all images */
+      if (videoId) {
+        $('.zoom-viewer__thumb-item__img').removeClass('hidden');
+        $this.children('.zoom-viewer__thumb-item__img').addClass('hidden');
+        $('.zoom-viewer__thumb-item__img').css({
+          "padding": "0",
+          "border": "2px solid transparent"
+        });
+      } else {
+        $('.zoom-viewer__thumb-item').css({
+          'width': '80px'
+        });
+        $('.zoom-viewer__thumb-item__img').addClass('hidden');
+        $('.zoom-viewer__thumb-item__img').css({
+          "height": "80px",
+          "width": "80px",
+          "padding": "0"
+        });
+        $('.zoom-viewer__thumb-item__img--src').css({
+          "background-size": "cover",
+          "height": "78px",
+          "width": "78px"
+        });
+        if (resource == "inventoryImages") {
+          $('.zoom-viewer__thumb-item__img').css({
+            "height": "80px",
+            "width": "80px",
+            "padding": "8px"
+          });
+          $('.zoom-viewer__thumb-item__img--src').css({
+            "background-size": "contain",
+            "height": "60px",
+            "width": "60px"
+          });
+        }
+      }
+      /* [End] */
+
+      $(".exprt-rvw__vid-iframe, .vid-wrpr, .js-vid-play").remove(); // Removing youtube classes if it is there
+      $(".js-zoom-viewer__thumb-item").find(".zoom-viewer__thumb-item__img").removeClass(
+        "zoom-viewer__thumb-item--selected");
+      $this.children(".zoom-viewer__thumb-item__img").addClass("zoom-viewer__thumb-item--selected");
+
+      $(".js-zoom-viewer__img-src").attr("src", imgPath);
+      $zoomViewerDisplay.data("loading", true);
+      $zoomViewerDisplay.data("src", imgPath);
+      $zoomViewerDisplay.data("thumb-id", thumbId);
+      $zoomViewerDisplay.addClass("zoom-viewer__display--loading zoom-viewer__display--zoom").removeClass(
+        "zoom-viewer__display--pan");
+
+      (function getImageDimentions() {
+        $("<img/>").attr("src", imgPath).load(function () {
+          if ($zoomViewerDisplay.data("src") === imgPath) {
+            $zoomViewerDisplay.data({
+              "width": this.width,
+              "height": this.height,
+              "loading": false,
+              "enabled": false
+            }).removeClass("zoom-viewer__display--loading")
+            var zoomImg = $zoomViewerDisplay.find('.js-zoom-viewer__img-src'),
+              negMarginX,
+              negMarginY;
+
+            zoomImg.attr('src', imgPath).show().removeClass("js-vid-img");
+            if (videoId) {
+              $(".vid-wrpr").remove();
+              playBtn =
+                '<img class="vid-play-icon js-vid-play" src="https://doypaxk1e2349.cloudfront.net/elements/play-circle-blue.png"><div class="vid-wrpr"></div>';
+              zoomImg.addClass("js-vid-img").attr("data-video-id", videoId).data("video-id", videoId).after(
+                playBtn);
+              $(".js-vid-play").click();
+            }
+
+            negMarginX = -(zoomImg.width() / 2) + 'px';
+            negMarginY = -(zoomImg.height() / 2) + 'px';
+            zoomImg.css({
+              'margin-left': negMarginX,
+              'margin-top': negMarginY
+            });
+          }
+        });
+      }());
+      mousePosX = 0;
+      mousePosY = 0;
+    });
+    $(".js-zoom-viewer__thumb-item:first-child").trigger("click");
+  });
+
+  // Click event  on bottom image thumbsnails
+  $doc.off("click", ".js-zoom-viewer__thumb-item");
+  $doc.off("click", ".js-vid-play").on("click", ".js-vid-play", function (e) {
+    var $playNode = $(this),
+      $imageNode = $playNode.siblings(".js-vid-img"),
+      $container = $(".vid-wrpr"),
+      $vidCntnr = $(".js-zoom-view__img");
+
+    $container.css({
+      "height": $vidCntnr.height(),
+      "margin-top": $vidCntnr.height() * 0.1
+    });
+
+    var height = $container.height() * 0.8,
+      width = $container.width() * 0.7,
+      videoId = $imageNode.data("video-id");
+
+
+    $imageNode.hide();
+    $playNode.remove();
+    $(".exprt-rvw__vid-iframe").remove();
+    // $(".vid-wrpr").remove();    
+    $container.append('<iframe class="exprt-rvw__vid-iframe" width="' + width + '" height="' + height +
+      '" src="//www.youtube.com/embed/' + videoId +
+      '?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
+  });
+
+  var resetImgToDefaults = function (zoomImg) {
+    zoomImg.css({
+      'max-height': '100%',
+      'max-width': '100%',
+      'top': '50%',
+      'left': '50%'
+    }).css({
+      'margin-left': -(zoomImg.width() / 2) + 'px',
+      'margin-top': -(zoomImg.height() / 2) + 'px'
+    });
+    $zoomViewerDisplay.addClass("zoom-viewer__display--zoom").removeClass("zoom-viewer__display--pan");
+    $zoomViewerDisplay.data("enabled", false);
+  }
+
+  $zoomViewerDisplay.on("click", function () {
+    if ($zoomViewerDisplay.data("loading") || !$zoomViewerDisplay.data("src") || $(this).children().hasClass(
+        'js-vid-play')) {
+      $('.js-zoom-viewer__thumb-wrpr').slideDown();
+      return;
+    }
+    // $('.js-zoom-viewer__thumb').slideUp();
+    var $zoomImg = $zoomViewerDisplay.find('.js-zoom-viewer__img-src');
+    if ($zoomViewerDisplay.data("enabled")) {
+      resetImgToDefaults($zoomImg);
+      $('.js-zoom-viewer__thumb-wrpr').slideDown();
+    } else {
+      $zoomImg.css({
+        "max-height": "none",
+        "max-width": "none",
+        "top": "50%",
+        "left": "50%"
+      }).css({
+        'margin-left': -($zoomImg.width() / 2) + 'px',
+        'margin-top': -($zoomImg.height() / 2) + 'px'
+      });
+      if ($zoomImg.width() > $zoomViewerDisplay.width() || $zoomImg.height() > $zoomViewerDisplay.height()) {
+        $zoomViewerDisplay.removeClass("zoom-viewer__display--zoom").addClass(
+          "zoom-viewer__display--pan");
+        $zoomViewerDisplay.data("enabled", true);
+        $('.js-zoom-viewer__thumb-wrpr').slideUp();
+      }
+    }
+  });
+
+  $zoomViewerDisplay.on("mousemove", function (e) {
+    if (!$zoomViewerDisplay.data("enabled") || !$zoomViewerDisplay.data("src")) return;
+
+    var $zoomImg = $zoomViewerDisplay.find('.js-zoom-viewer__img-src'),
+      parentOffset = $zoomViewerDisplay.offset(),
+      zoomImgLeft = parseInt($zoomImg.css('left')),
+      zoomImgTop = parseInt($zoomImg.css('top')),
+      parentMidX = $zoomViewerDisplay.width() / 2,
+      parentMidY = $zoomViewerDisplay.height() / 2,
+      relX = e.pageX - parentOffset.left,
+      relY = e.pageY - parentOffset.top;
+
+    if (relY < mousePosY && relX < mousePosX) {
+      $zoomImg.css({
+        "left": (zoomImgLeft + 7) + "px",
+        "top": (zoomImgTop + 7) + "px"
+      });
+    } else if (relY < mousePosY && relX > mousePosX) {
+      $zoomImg.css({
+        "left": (zoomImgLeft - 7) + "px",
+        "top": (zoomImgTop + 7) + "px"
+      });
+    } else if (relY > mousePosY && relX > mousePosX) {
+      $zoomImg.css({
+        "left": (zoomImgLeft - 7) + "px",
+        "top": (zoomImgTop - 7) + "px"
+      });
+    } else if (relY > mousePosY && relX < mousePosX) {
+      $zoomImg.css({
+        "left": (zoomImgLeft + 7) + "px",
+        "top": (zoomImgTop - 7) + "px"
+      });
+    } else if (relY < mousePosY)
+      $zoomImg.css("top", (zoomImgTop + 7) + "px");
+    else if (relY > mousePosY)
+      $zoomImg.css("top", (zoomImgTop - 7) + "px");
+    else if (relX < mousePosX)
+      $zoomImg.css("left", (zoomImgLeft + 7) + "px");
+    else if (relX > mousePosX)
+      $zoomImg.css("left", (zoomImgLeft - 7) + "px");
+
+    // set new mousePosX and mousePosY after doing test above
+    mousePosY = relY;
+    mousePosX = relX;
+  });
+
+  $zoomViewerDisplay.on('mouseleave', function (e) {
+    if (!$zoomViewerDisplay.data("enabled") || !$zoomViewerDisplay.data("src")) return;
+    var $zoomImg = $zoomViewerDisplay.find('.js-zoom-viewer__img-src');
+    resetImgToDefaults($zoomImg);
+    $('.js-zoom-viewer__thumb').slideDown();
+  });
+
+
+
+  $(document).off('click', '.zoom-viewer__arrow');
+  $(".zoom-viewer__arrow").on("click", function (e) {
+    var total_thumbs = $(".js-zoom-viewer__thumb-item").length,
+      isNext = $(this).hasClass("zoom-viewer__arrow--next"),
+      thumb_id = {};
+
+    thumb_id.current = $zoomViewerDisplay.data("thumb-id");
+    if (isNext) {
+      thumb_id.after = (thumb_id.current + 1) % total_thumbs;
+      sliderImageFocus(true);
+    } else {
+      thumb_id.after = thumb_id.current ? (thumb_id.current - 1) : (total_thumbs - 1);
+      sliderImageFocus(false);
+    }
+    if ((thumb_id.current == total_thumbs && isNext) || (thumb_id.current == 1 && !isNext)) {
+      switchCollection(isNext); // Collection Switching || Prev or Next
+    } else {
+      $(".js-zoom-viewer__thumb-item").eq(thumb_id.after - 1).click();
+    }
+    return false;
+  }).on("mousemove", function () {
+    return false;
+  });
+
+  function getRelativeWidth(ratio, crntHght) {
+    ratio = ratio.split(":");
+    var wdthRto = ratio[0];
+    var hghtRto = ratio[1];
+    return ((wdthRto * crntHght) / hghtRto);
+  }
+
+  function getRelativeHeight(ratio, crntWdth) {
+    ratio = ratio.split(":");
+    var wdthRto = ratio[0];
+    var hghtRto = ratio[1];
+    return ((crntWdth * hghtRto) / wdthRto);
+  }
+
+  function thumbnailIconState() {
+    var $index = $(".zoom-viewer__thumb-item--selected"),
+        $thumbNailStrp = $(".js-zoom-viewer__thumb"),
+        prntCntnr = $(".js-zoom-viewer__thumb").parent().width(),
+        $next = $(".thumbnails__arrow--next"),
+        $prev = $(".thumbnails__arrow--prev");
+    var cntnrWidth = $thumbNailStrp.children(".zoom-viewer__thumb-item:last-child").position().left + $(
+      ".zoom-viewer__thumb-item").width();
+    var indexPstnLeft = $index.position().left;
+    var sldRght = ($index.position().left);
+
+    var lastElm = (cntnrWidth - sldRght) <= prntCntnr; 
+    if (lastElm) {
+      $next.css("opacity", "0.3");
+    } else if (indexPstnLeft < prntCntnr) {
+       $prev.css("opacity", "0.3");
+    } else {
+       $prev.css("opacity", "1");
+      $next.css("opacity", "1");
+    }
+  }
+
+  function sliderImageFocus(isNext) {
+    var $index = $(".zoom-viewer__thumb-item--selected"),
+        $thumbNailStrp = $(".js-zoom-viewer__thumb"),
+        shiftX,
+        prntCntnr = $(".js-zoom-viewer__thumb").parent().width();
+    
+    thumbnailIconState(); // To change the thumbnail nav icon state
+
+    var cntnrWidth = $thumbNailStrp.children(".zoom-viewer__thumb-item:last-child").position().left + $(
+      ".zoom-viewer__thumb-item").width();
+
+    var bndryX1 = $thumbNailStrp.parent().offset().left;
+
+    var bndryX2 = $thumbNailStrp.parent().offset().left + ($thumbNailStrp.parent().width() - ($(
+      ".zoom-viewer__thumb-item--selected").width()));
+
+    
+
+    if (isNext) {
+      var bndryX2 = $thumbNailStrp.parent().offset().left + ($thumbNailStrp.parent().width() - ($(
+        ".zoom-viewer__thumb-item--selected").width() + 19));
+      var sldRght = ($index.position().left);
+      if ((cntnrWidth - sldRght) <= prntCntnr) {
+        sldRght = (cntnrWidth - (prntCntnr - 20));
+      }
+    } else {
+      var bndryX1 = $thumbNailStrp.parent().offset().left + ($(".zoom-viewer__thumb-item--selected").width() + 19);
+    }
+    var indexX = $(".zoom-viewer__thumb-item--selected").offset().left;
+   
+    if ((indexX <= bndryX1) && (indexX <= bndryX2) && isNext) {
+      $thumbNailStrp.css({
+        "-webkit-transform": "translateX(-" + sldRght + "px)"
+      });
+    } else if ((indexX <= bndryX1) && (indexX <= bndryX2) && !isNext) {
+      shiftX = (($index.position().left) - $thumbNailStrp.parent().width());
+      shiftX = shiftX >= 0 ? shiftX : 0;
+      $thumbNailStrp.css({
+        "-webkit-transform": "translateX(-" + shiftX + "px)"
+      });
+    } else if ((indexX >= bndryX1) && (indexX >= bndryX2) && isNext) {
+      $thumbNailStrp.css({
+        "-webkit-transform": "translateX(-" + sldRght + "px)"
+      });
+    } else if ((indexX >= bndryX1) && (indexX >= bndryX2) && !isNext) {
+      $thumbNailStrp.css({
+        "-webkit-transform": "translateX(-" + (($index.position().left) - $thumbNailStrp.parent().width()) + "px)"
+      });
+    }
+    return false;
+  }
+
+  // Start
+  $(document).off("click", ".thumbnails__arrow");
+
+  $(document).on("click", ".thumbnails__arrow", function (e) {
+    // Increase the count of navigation arrow onclick
+    var isNext = $(this).hasClass("thumbnails__arrow--next"),
+      $next = $(".thumbnails__arrow--next"),
+      $prev = $(".thumbnails__arrow--prev"),
+      $thumbNailStrp = $(".js-zoom-viewer__thumb"),
+      $nextVal = parseInt($next.attr("data-slide"), 10),
+      $prevVal = parseInt($prev.attr("data-slide"), 10);
+
+    if (isNext) {
+      $next.attr("data-slide", $nextVal + 1);
+      slide($thumbNailStrp, "right");
+    } else {
+      $next.attr("data-slide", $nextVal - 1);
+      slide($thumbNailStrp, "left");
+    }
+
+  });
+
+  function slide(cntnr, drctn) {
+    // Testing [Start]
+    var $item = $(".zoom-viewer__thumb-item");
+    var $index = $(".zoom-viewer__thumb-item--selected"),
+      $next = $(".thumbnails__arrow--next").attr("data-slide"),
+      $prev = $(".thumbnails__arrow--prev").attr("data-slide"),
+      $thumbNailStrp = $(".js-zoom-viewer__thumb");
+    var cntnrWidth = $thumbNailStrp.children(".zoom-viewer__thumb-item:last-child").position().left + $(
+      ".zoom-viewer__thumb-item").width();
+
+    var trnslt = $index.position().left;
+    trnsltRght = (cntnrWidth - trnslt) > $thumbNailStrp.width() ? trnslt : (cntnrWidth - $thumbNailStrp.width());
+
+    var rghtBrkpnt = Math.floor($thumbNailStrp.width() / ($item.width() + 19)); // It will give the first slide right breakpoint 
+    var sldRght = (rghtBrkpnt * ($item.width() + 19)) * ((parseInt($next, 10) - 1)); // true if the current node($index) is break point
+
+    // Testing [End]
+    var prntCntnr = cntnr.offsetParent().width(),
+      sldLeft;
+
+    var cntnrWidth = cntnr.children(".zoom-viewer__thumb-item:last-child").position().left + $(
+      ".zoom-viewer__thumb-item").width();
+
+    var trnsfrm = Math.abs(parseInt(cntnr.css("transform").split(",")[4]));
+
+    sldRght = (trnsfrm < prntCntnr) ? prntCntnr : (prntCntnr + trnsfrm);
+    if ((cntnrWidth - sldRght) <= prntCntnr) {
+      sldRght = (cntnrWidth - (prntCntnr - 20));
+    }
+    sldLeft = (trnsfrm <= prntCntnr) ? 0 : (trnsfrm - prntCntnr);
+
+    if (drctn === "left") {
+      $(".thumbnails__arrow--next").css("opacity", "1");
+      if (sldLeft === 0) {
+        $(".thumbnails__arrow--prev").css("opacity", "0.3");
+      }
+    } else if (drctn === "right") {
+      $(".thumbnails__arrow--prev").css("opacity", "1");
+      if (sldRght === (cntnrWidth - (prntCntnr - 20))) {
+        $(".thumbnails__arrow--next").css("opacity", "0.3");
+      }
+    }
+
+    if (drctn === "right") {
+      cntnr.css({
+        "-webkit-transform": "translateX(-" + sldRght + "px)"
+      });
+    } else {
+      cntnr.css({
+        "-webkit-transform": "translateX(-" + sldLeft + "px)"
+      });
+    }
+
+  }
+
+  function switchCollection(isNext) {
+    var $collection = ".js-zoom-viewer__clctn__glry",
+      totalCollection = $($collection).length,
+      currentCollection = $(".zoom-viewer__clctn__glry--crnt"),
+      currentCollectionId = $(".zoom-viewer__clctn__glry--crnt").data("collection-id"),
+      thumbsnails = $(".js-zoom-viewer__thumb-item"),
+      thumbnailsLength = thumbsnails.length;
+    if (currentCollectionId < totalCollection && isNext) {
+      currentCollection.next($collection).click();
+    } else if (currentCollectionId <= totalCollection && !isNext) {
+      currentCollection.prev().length ? currentCollection.prev($collection).click() : $($collection)[totalCollection -
+        1].click();
+      $thumbsnails[thumbnailsLength - 1].click();
+    } else if (currentCollectionId == totalCollection && isNext) {
+      $($collection)[0].click();
+    }
+    return;
+  }
+
+  // End 
+
+
+  $(document).unbind("keydown");
+  $(document).on('keydown', function (e) {
+    if (e.which == 39) {
+      $('.zoom-viewer__arrow--next').click();
+    } else if (e.which == 37) {
+      $('.zoom-viewer__arrow--prev').click();
+    }
+  });
+
+</script>
+<style>
+  * {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Arial, Helvetica, sans-serif;
+  }
+
+  .popup-container {
+    top: 10px;
+  }
+
+  .js-pop-up__cls-btn {
+    padding: 3px;
+    z-index: 5;
+    top: 0;
+  }
+
+  .vid-wrpr {
+    height: 400px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0 40px;
+  }
+
+  .vid-play-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .clearfix:before,
+  .clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .zoom-viewer {
+    width: 825px;
+    box-shadow: 0 0 5px #ccc;
+  }
+
+  .zoom-viewer__display {
+    position: relative;
+    float: left;
+    width: 550px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+  }
+
+
+
+  .zoom-viewer__display--pan {
+    cursor: url("http://0a139eea44aaa5b71501-dd7be9abd488a04eaa465c4563316f16.r46.cf1.rackcdn.com/zoom_scroll.png"), default;
+  }
+
+  .zoom-viewer__display--zoom {
+    cursor: pointer;
+  }
+
+  .zoom-viewer__arrow {
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+    width: 130px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .zoom-viewer__arrow--prev {
+    left: 0;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: url('https://assets.mspcdn.net/fl_lossy/msp-ui/icons/left_arrow_dark.png') 30px center no-repeat;
+  }
+
+  .zoom-viewer__arrow--next {
+    right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: url('https://assets.mspcdn.net/fl_lossy/msp-ui/icons/right_arrow_dark.png') 80px center no-repeat;
+  }
+
+  .zoom-viewer__display--loading {
+    background: url('https://assets.mspcdn.net/f_auto/msp-ui/icons/ajax-loader_1.gif') center no-repeat;
+  }
+
+  .zoom-viewer__clctn {
+    float: left;
+    width: 200px;
+    height: 100%;
+    background-color: #F2F3F5;
+    box-sizing: border-box;
+    overflow: auto;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
+  .zoom-viewer__clctn__glry {
+    box-sizing: border-box;
+    position: relative;
+
+    padding-bottom: 10px;
+    font-size: 15px;
+
+    cursor: pointer;
+    color: #3E3E3E;
+
+    transition: all 400ms;
+  }
+
+  .zoom-viewer__clctn__glry--crnt {
+    background-color: #E3E1E8;
+    color: #205E83;
+  }
+
+  .zoom-viewer__clctn--lbl {
+    padding: 10px 20px 15px 30px;
+    font-weight: 500;
+  }
+
+  .zoom-viewer__clctn--thumb {
+    position: relative;
+    width: 73px;
+    height: 73px;
+    margin: 0 0 0 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+  }
+
+  .zoom-viewer__clctn--thumb-shdw {
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    margin: -7px 0 0 -7px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 2px 2px 5px #f2f3f5;
+  }
+
+  .js-videos .zoom-viewer__clctn--thumb-shdw:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.4) url(https://assets.mspcdn.net/fl_lossy/msp-ui/icons/video-icon_v2.png) center/ 26px no-repeat;
+  }
+
+
+  .zoom-viewer__thumb-wrpr {
+    width: 81%;
+    height: 130px;
+    padding: 3px;
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 10%;
+    white-space: nowrap;
+  }
+
+  .zoom-viewer__thumb-cntnr {
+    overflow: hidden;
+    width: 100%;
+    height: 130px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 200ms;
+    -webkit-transition: all 200ms;
+  }
+
+  .zoom-viewer__thumb {
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    padding: 3px 0;
+    margin-left: 3px;
+    bottom: 0;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: top;
+    white-space: nowrap;
+    transition: all 200ms;
+    -webkit-transition: all 200ms;
+  }
+
+
+  .zoom-viewer__thumb-item {
+    display: inline-block;
+    font-size: 0;
+    cursor: pointer;
+    text-align: center;
+    width: 140px;
+    height: 120px;
+    margin-right: 19px;
+    box-sizing: border-box;
+  }
+
+  .zoom-viewer__thumb-item:last-child {
+    margin-right: 0;
+  }
+
+  .zoom-viewer__thumb-item__img {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #ccc;
+    width: 132px;
+    height: 75px;
+    background: rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 4px;
+  }
+
+  .zoom-viewer__thumb-item__img--src {
+    box-sizing: border-box;
+    width: 128px;
+    height: 72px;
+    background: center/ 100% no-repeat;
+  }
+
+  .zoom-viewer__thumb-item__img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4) url(https://assets.mspcdn.net/fl_lossy/msp-ui/icons/video-icon_v2.png) center/ 36px no-repeat
+  }
+
+  .zoom-viewer__thumb-item__img.hidden:before {
+    display: none;
+  }
+
+
+  .zoom-viewer__thumb-item__ttl {
+    line-height: 1.3em;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 10px;
+    color: rgba(17, 17, 17, 1);
+    text-align: left;
+    height: 26px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .zoom-viewer__thumb-item--selected {
+    border: 1px solid transparent;
+    box-shadow: 0 0 0 2px #396786;
+    transition: all 200ms;
+  }
+
+  .zoom-viewer__img-src {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+  }
+
+  .rvw-vid-wrpr,
+  .rvw-vid-wrpr .zoom-viewer {
+    /*width: 1185px;*/
+    height: 100%;
+    position: relative;
+  }
+
+  .pop-up__cntnr {
+    top: 20px;
+    /*width: 1185px;*/
+    box-sizing: border-box;
+    background: none;
+    /*animation: movingTopToBottom 200ms linear;*/
+  }
+
+  @keyframes movingTopToBottom {
+    0% {
+      top: -1800px;
+      opacity: 0;
+    }
+    80% {
+      top: -60px;
+      opacity: 0.2;
+    }
+    85% {
+      top: -40px;
+      opacity: 0.3;
+    }
+    90% {
+      top: -20px;
+      opacity: 0.4;
+    }
+    95% {
+      top: -0px;
+      opacity: 0.5;
+    }
+    100% {
+      top: 20px;
+      opacity: 1;
+    }
+  }
+
+  .rvw-vid-wrpr .zoom-viewer__display {
+    vertical-align: top;
+    float: left;
+    width: 985px;
+    position: relative;
+    background: #fff;
+    box-sizing: border-box;
+    border-right: 2px solid #DFDCE5;
+  }
+
+  .popup__ad-src {
+    position: relative;
+    bottom: -5px;
+    width: 928px;
+    height: 90px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .thumbnails__arrow {
+    position: absolute;
+    top: 30%;
+    box-sizing: border-box;
+    width: 34px;
+    height: 40px;
+    margin-top: -20px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 40px;
+    line-height: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 99;
+  }
+
+  .thumbnails__arrow--prev {
+    left: -30px;
+    padding: 10px 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 99;
+    background: url(//doypaxk1e2349.cloudfront.net/icons/arrow-left-black.png) no-repeat center;
+  }
+
+  .thumbnails__arrow--next {
+    right: -30px;
+    padding: 10px 12px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 99;
+    background: url(//doypaxk1e2349.cloudfront.net/icons/arrow-right-black.png) no-repeat center;
+  }
+</style>

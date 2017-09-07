@@ -1,0 +1,21 @@
+{
+  "name": "landmark",
+  "version": "1.0.0",
+  "description": "Round 2 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "build",
+    "build": "webpack-dev-server -p",
+    "build:prod": "webpack -p"
+  },
+  "keywords": [
+    "Login/Register"
+  ],
+  "author": "Hari Shekhar",
+  "license": "ISC",
+  "devDependencies": {
+    
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}

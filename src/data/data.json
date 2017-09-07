@@ -1,0 +1,1128 @@
+{
+  "sections": [{
+    "title": "क्या होगा आगे..?! - सस्पेंस कहानियाँ",
+    "url": "/kya-hoga-aage",
+    "bookList": [{
+      "title": "कहानी का प्लाट ",
+      "author": {
+        "name": "वीणा वत्सल सिंह",
+        "url": "/veena-vatsal-singh"
+      },
+      "url": "/veena-vatsal-singh/kahani-ka-plot",
+      "imageUrl": "http://3.ptlp.co/pratilipi/cover?pratilipiId\u003d5732714139353088\u0026version\u003d1464437483620",
+      "readurl": "/read?id\u003d5732714139353088",
+      "writeurl": "/write?id\u003d5732714139353088",
+      "ratingCount": 8,
+      "averageRating": 4.75,
+      "readCount": 6821
+    }, {
+      "title": "टिटलागढ़ की एक रात",
+      "author": {
+        "name": "विजय कुमार सपत्ती",
+        "url": "/vijay-kumar-sappatti"
+      },
+      "url": "/vijay-kumar-sappatti/titlagarh-ki-ek-raat",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5097490726518784\u0026version\u003d1422255006789",
+      "readurl": "/read?id\u003d5097490726518784",
+      "writeurl": "/write?id\u003d5097490726518784",
+      "ratingCount": 26,
+      "averageRating": 4.1923075,
+      "readCount": 62072
+    }, {
+      "title": "अँधा प्रेम",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/andha-prem",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5129308014116864\u0026version\u003d1453721297934",
+      "readurl": "/read?id\u003d5129308014116864",
+      "writeurl": "/write?id\u003d5129308014116864",
+      "ratingCount": 11,
+      "averageRating": 4.090909,
+      "readCount": 33716
+    }, {
+      "title": "दि परफेक्ट मर्डर",
+      "author": {
+        "name": "विजय कुमार सपत्ती",
+        "url": "/vijay-kumar-sappatti"
+      },
+      "url": "/vijay-kumar-sappatti/the-perfect-murder",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5684997289672704\u0026version\u003d1421931162597",
+      "readurl": "/read?id\u003d5684997289672704",
+      "writeurl": "/write?id\u003d5684997289672704",
+      "ratingCount": 17,
+      "averageRating": 4.470588,
+      "readCount": 44109
+    }, {
+      "title": "वह खौफनाक रात...",
+      "author": {
+        "name": "नीलम मधुर कुलश्रेष्ठ",
+        "url": "/neelam-madhur-kulshreshtha"
+      },
+      "url": "/neelam-madhur-kulshreshtha/wah-khaufnak-raat",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d5396006087688192\u0026version\u003d1467714986066",
+      "readurl": "/read?id\u003d5396006087688192",
+      "writeurl": "/write?id\u003d5396006087688192",
+      "ratingCount": 4,
+      "averageRating": 4.5,
+      "readCount": 5047
+    }, {
+      "title": "बच्चों के मन",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/bachcho-ke-man",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d5731246875344896\u0026version\u003d1453629739373",
+      "readurl": "/read?id\u003d5731246875344896",
+      "writeurl": "/write?id\u003d5731246875344896",
+      "ratingCount": 15,
+      "averageRating": 4.8,
+      "readCount": 38383
+    },{
+      "title": "कहानी का प्लाट ",
+      "author": {
+        "name": "वीणा वत्सल सिंह",
+        "url": "/veena-vatsal-singh"
+      },
+      "url": "/veena-vatsal-singh/kahani-ka-plot",
+      "imageUrl": "http://3.ptlp.co/pratilipi/cover?pratilipiId\u003d5732714139353088\u0026version\u003d1464437483620",
+      "readurl": "/read?id\u003d5732714139353088",
+      "writeurl": "/write?id\u003d5732714139353088",
+      "ratingCount": 8,
+      "averageRating": 4.75,
+      "readCount": 6821
+    }, {
+      "title": "टिटलागढ़ की एक रात",
+      "author": {
+        "name": "विजय कुमार सपत्ती",
+        "url": "/vijay-kumar-sappatti"
+      },
+      "url": "/vijay-kumar-sappatti/titlagarh-ki-ek-raat",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5097490726518784\u0026version\u003d1422255006789",
+      "readurl": "/read?id\u003d5097490726518784",
+      "writeurl": "/write?id\u003d5097490726518784",
+      "ratingCount": 26,
+      "averageRating": 4.1923075,
+      "readCount": 62072
+    }, {
+      "title": "अँधा प्रेम",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/andha-prem",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5129308014116864\u0026version\u003d1453721297934",
+      "readurl": "/read?id\u003d5129308014116864",
+      "writeurl": "/write?id\u003d5129308014116864",
+      "ratingCount": 11,
+      "averageRating": 4.090909,
+      "readCount": 33716
+    }, {
+      "title": "दि परफेक्ट मर्डर",
+      "author": {
+        "name": "विजय कुमार सपत्ती",
+        "url": "/vijay-kumar-sappatti"
+      },
+      "url": "/vijay-kumar-sappatti/the-perfect-murder",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5684997289672704\u0026version\u003d1421931162597",
+      "readurl": "/read?id\u003d5684997289672704",
+      "writeurl": "/write?id\u003d5684997289672704",
+      "ratingCount": 17,
+      "averageRating": 4.470588,
+      "readCount": 44109
+    }, {
+      "title": "वह खौफनाक रात...",
+      "author": {
+        "name": "नीलम मधुर कुलश्रेष्ठ",
+        "url": "/neelam-madhur-kulshreshtha"
+      },
+      "url": "/neelam-madhur-kulshreshtha/wah-khaufnak-raat",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d5396006087688192\u0026version\u003d1467714986066",
+      "readurl": "/read?id\u003d5396006087688192",
+      "writeurl": "/write?id\u003d5396006087688192",
+      "ratingCount": 4,
+      "averageRating": 4.5,
+      "readCount": 5047
+    }, {
+      "title": "बच्चों के मन",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/bachcho-ke-man",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d5731246875344896\u0026version\u003d1453629739373",
+      "readurl": "/read?id\u003d5731246875344896",
+      "writeurl": "/write?id\u003d5731246875344896",
+      "ratingCount": 15,
+      "averageRating": 4.8,
+      "readCount": 38383
+    }]
+  }, {
+    "title": "तुम नहीं तो ये दुनिया कुछ नहीं है... - प्रेम कहानियाँ",
+    "url": "/tum-nhito",
+    "bookList": [{
+      "title": "प्रेम",
+      "author": {
+        "name": "नितिन श्रीवास्तव",
+        "url": "/nitin-srivastava"
+      },
+      "url": "/nitin-srivastava/prem",
+      "imageUrl": "http://0.ptlp.co/pratilipi/cover?pratilipiId\u003d5696880377856000\u0026version\u003d1450762506254",
+      "readurl": "/read?id\u003d5696880377856000",
+      "writeurl": "/write?id\u003d5696880377856000",
+      "ratingCount": 3,
+      "averageRating": 5.0,
+      "readCount": 25151
+    }, {
+      "title": "सात साल बाद",
+      "author": {
+        "name": "उत्तम कुमार",
+        "url": "/uttam-kumar"
+      },
+      "url": "/pratilipi/5664991313133568",
+      "imageUrl": "http://3.ptlp.co/pratilipi/cover?pratilipiId\u003d5664991313133568\u0026version\u003d1465734882079",
+      "readurl": "/read?id\u003d5664991313133568",
+      "writeurl": "/write?id\u003d5664991313133568",
+      "ratingCount": 23,
+      "averageRating": 4.3913045,
+      "readCount": 19096
+    }, {
+      "title": "छत वाला कमरा और  इश्क़ वाला लव",
+      "author": {
+        "name": "अंजू शर्मा",
+        "url": "/anju-sharma"
+      },
+      "url": "/anju-sharma/chhat-wala-kamra-aur-ishk-wala-love",
+      "imageUrl": "http://0.ptlp.co/pratilipi/cover?pratilipiId\u003d6315140416798720\u0026version\u003d1446205434013",
+      "readurl": "/read?id\u003d6315140416798720",
+      "writeurl": "/write?id\u003d6315140416798720",
+      "ratingCount": 19,
+      "averageRating": 4.6842103,
+      "readCount": 28985
+    }, {
+      "title": "किशोर प्रेम",
+      "author": {
+        "name": "रवि रंजन गोस्वामी",
+        "url": "/ravi-ranjan-goswami"
+      },
+      "url": "/pratilipi/6206111455641600",
+      "imageUrl": "http://0.ptlp.co/pratilipi/cover?pratilipiId\u003d6206111455641600\u0026version\u003d1449332773306",
+      "readurl": "/read?id\u003d6206111455641600",
+      "writeurl": "/write?id\u003d6206111455641600",
+      "ratingCount": 16,
+      "averageRating": 4.0625,
+      "readCount": 61465
+    }, {
+      "title": "फ्लर्टिंग मेनिया",
+      "author": {
+        "name": "इरा टाक",
+        "url": "/era-tak"
+      },
+      "url": "/era-tak/flirting-mania",
+      "imageUrl": "http://0.ptlp.co/pratilipi/cover?pratilipiId\u003d4921305417646080\u0026version\u003d1445440733260",
+      "readurl": "/read?id\u003d4921305417646080",
+      "writeurl": "/write?id\u003d4921305417646080",
+      "ratingCount": 38,
+      "averageRating": 4.5263157,
+      "readCount": 53868
+    }, {
+      "title": "मेरी प्रेम कहानी",
+      "author": {
+        "name": "अरुण गौड़",
+        "url": "/arun-gaud-1"
+      },
+      "url": "/arun-gaud/meri-prem-kahani",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d5751366853066752\u0026version\u003d1462679548762",
+      "readurl": "/read?id\u003d5751366853066752",
+      "writeurl": "/write?id\u003d5751366853066752",
+      "ratingCount": 25,
+      "averageRating": 4.76,
+      "readCount": 51294
+    },{
+      "title": "कहानी का प्लाट ",
+      "author": {
+        "name": "वीणा वत्सल सिंह",
+        "url": "/veena-vatsal-singh"
+      },
+      "url": "/veena-vatsal-singh/kahani-ka-plot",
+      "imageUrl": "http://3.ptlp.co/pratilipi/cover?pratilipiId\u003d5732714139353088\u0026version\u003d1464437483620",
+      "readurl": "/read?id\u003d5732714139353088",
+      "writeurl": "/write?id\u003d5732714139353088",
+      "ratingCount": 8,
+      "averageRating": 4.75,
+      "readCount": 6821
+    }, {
+      "title": "टिटलागढ़ की एक रात",
+      "author": {
+        "name": "विजय कुमार सपत्ती",
+        "url": "/vijay-kumar-sappatti"
+      },
+      "url": "/vijay-kumar-sappatti/titlagarh-ki-ek-raat",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5097490726518784\u0026version\u003d1422255006789",
+      "readurl": "/read?id\u003d5097490726518784",
+      "writeurl": "/write?id\u003d5097490726518784",
+      "ratingCount": 26,
+      "averageRating": 4.1923075,
+      "readCount": 62072
+    }, {
+      "title": "अँधा प्रेम",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/andha-prem",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5129308014116864\u0026version\u003d1453721297934",
+      "readurl": "/read?id\u003d5129308014116864",
+      "writeurl": "/write?id\u003d5129308014116864",
+      "ratingCount": 11,
+      "averageRating": 4.090909,
+      "readCount": 33716
+    }, {
+      "title": "दि परफेक्ट मर्डर",
+      "author": {
+        "name": "विजय कुमार सपत्ती",
+        "url": "/vijay-kumar-sappatti"
+      },
+      "url": "/vijay-kumar-sappatti/the-perfect-murder",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5684997289672704\u0026version\u003d1421931162597",
+      "readurl": "/read?id\u003d5684997289672704",
+      "writeurl": "/write?id\u003d5684997289672704",
+      "ratingCount": 17,
+      "averageRating": 4.470588,
+      "readCount": 44109
+    }, {
+      "title": "वह खौफनाक रात...",
+      "author": {
+        "name": "नीलम मधुर कुलश्रेष्ठ",
+        "url": "/neelam-madhur-kulshreshtha"
+      },
+      "url": "/neelam-madhur-kulshreshtha/wah-khaufnak-raat",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d5396006087688192\u0026version\u003d1467714986066",
+      "readurl": "/read?id\u003d5396006087688192",
+      "writeurl": "/write?id\u003d5396006087688192",
+      "ratingCount": 4,
+      "averageRating": 4.5,
+      "readCount": 5047
+    }, {
+      "title": "बच्चों के मन",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/bachcho-ke-man",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d5731246875344896\u0026version\u003d1453629739373",
+      "readurl": "/read?id\u003d5731246875344896",
+      "writeurl": "/write?id\u003d5731246875344896",
+      "ratingCount": 15,
+      "averageRating": 4.8,
+      "readCount": 38383
+    }]
+  }, {
+    "title": "व्यस्तता में से निकालें पाँच मिनट - लघु कहानियाँ",
+    "url": "/vyastata",
+    "bookList": [{
+      "title": "एक औरत तीन बटा चार",
+      "author": {
+        "name": "सुधा अरोड़ा",
+        "url": "/sudha-arora"
+      },
+      "url": "/sudha-arora/ek-aurat-tin-bata-char",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d4653665407205376\u0026version\u003d1439826540858",
+      "readurl": "/read?id\u003d4653665407205376",
+      "writeurl": "/write?id\u003d4653665407205376",
+      "ratingCount": 6,
+      "averageRating": 3.8333333,
+      "readCount": 6936
+    }, {
+      "title": "माँ",
+      "author": {
+        "name": "महावीर उत्तरांचली",
+        "url": "/mahavir-uttranchali"
+      },
+      "url": "/mahavir-uttranchali/ma",
+      "imageUrl": "http://3.ptlp.co/pratilipi/cover?pratilipiId\u003d6212735507365888\u0026version\u003d1429245534844",
+      "readurl": "/read?id\u003d6212735507365888",
+      "writeurl": "/write?id\u003d6212735507365888",
+      "ratingCount": 3,
+      "averageRating": 4.6666665,
+      "readCount": 2648
+    }, {
+      "title": "बड़ी हत्या , छोटी हत्या",
+      "author": {
+        "name": "सुधा अरोड़ा",
+        "url": "/sudha-arora"
+      },
+      "url": "/sudha-arora/badi-hatya-chhoti-hatya",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d4872513536393216\u0026version\u003d1437742638430",
+      "readurl": "/read?id\u003d4872513536393216",
+      "writeurl": "/write?id\u003d4872513536393216",
+      "ratingCount": 6,
+      "averageRating": 4.5,
+      "readCount": 10769
+    }, {
+      "title": "अनुभूतियाँ",
+      "author": {
+        "name": "सुरेखा शर्मा",
+        "url": "/surekha-sharma"
+      },
+      "url": "/surekha-sharma/anubhotiya",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d5755832444649472\u0026version\u003d1443176174725",
+      "readurl": "/read?id\u003d5755832444649472",
+      "writeurl": "/write?id\u003d5755832444649472",
+      "ratingCount": 1,
+      "averageRating": 3.0,
+      "readCount": 174
+    }, {
+      "title": "प्यार मरता नहीं है, सुधाजी  ",
+      "author": {
+        "name": "डॉ0 पूरन सिंह",
+        "url": "/dr-puran-singh"
+      },
+      "url": "/puran-singh/pyar-marta-nahi-hai-sudha-ji",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d5810655573573632\u0026version\u003d1460717381014",
+      "readurl": "/read?id\u003d5810655573573632",
+      "writeurl": "/write?id\u003d5810655573573632",
+      "ratingCount": 3,
+      "averageRating": 4.6666665,
+      "readCount": 5966
+    }, {
+      "title": "करवाचौथी औरत ",
+      "author": {
+        "name": "सुधा अरोड़ा",
+        "url": "/sudha-arora"
+      },
+      "url": "/sudha-arora/karvachauthi-aurat",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d5077420224806912\u0026version\u003d1462356417388",
+      "readurl": "/read?id\u003d5077420224806912",
+      "writeurl": "/write?id\u003d5077420224806912",
+      "ratingCount": 5,
+      "averageRating": 3.6,
+      "readCount": 5014
+    },
+    {
+      "title": "कहानी का प्लाट ",
+      "author": {
+        "name": "वीणा वत्सल सिंह",
+        "url": "/veena-vatsal-singh"
+      },
+      "url": "/veena-vatsal-singh/kahani-ka-plot",
+      "imageUrl": "http://3.ptlp.co/pratilipi/cover?pratilipiId\u003d5732714139353088\u0026version\u003d1464437483620",
+      "readurl": "/read?id\u003d5732714139353088",
+      "writeurl": "/write?id\u003d5732714139353088",
+      "ratingCount": 8,
+      "averageRating": 4.75,
+      "readCount": 6821
+    }, {
+      "title": "टिटलागढ़ की एक रात",
+      "author": {
+        "name": "विजय कुमार सपत्ती",
+        "url": "/vijay-kumar-sappatti"
+      },
+      "url": "/vijay-kumar-sappatti/titlagarh-ki-ek-raat",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5097490726518784\u0026version\u003d1422255006789",
+      "readurl": "/read?id\u003d5097490726518784",
+      "writeurl": "/write?id\u003d5097490726518784",
+      "ratingCount": 26,
+      "averageRating": 4.1923075,
+      "readCount": 62072
+    }, {
+      "title": "अँधा प्रेम",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/andha-prem",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5129308014116864\u0026version\u003d1453721297934",
+      "readurl": "/read?id\u003d5129308014116864",
+      "writeurl": "/write?id\u003d5129308014116864",
+      "ratingCount": 11,
+      "averageRating": 4.090909,
+      "readCount": 33716
+    }, {
+      "title": "दि परफेक्ट मर्डर",
+      "author": {
+        "name": "विजय कुमार सपत्ती",
+        "url": "/vijay-kumar-sappatti"
+      },
+      "url": "/vijay-kumar-sappatti/the-perfect-murder",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5684997289672704\u0026version\u003d1421931162597",
+      "readurl": "/read?id\u003d5684997289672704",
+      "writeurl": "/write?id\u003d5684997289672704",
+      "ratingCount": 17,
+      "averageRating": 4.470588,
+      "readCount": 44109
+    }, {
+      "title": "वह खौफनाक रात...",
+      "author": {
+        "name": "नीलम मधुर कुलश्रेष्ठ",
+        "url": "/neelam-madhur-kulshreshtha"
+      },
+      "url": "/neelam-madhur-kulshreshtha/wah-khaufnak-raat",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d5396006087688192\u0026version\u003d1467714986066",
+      "readurl": "/read?id\u003d5396006087688192",
+      "writeurl": "/write?id\u003d5396006087688192",
+      "ratingCount": 4,
+      "averageRating": 4.5,
+      "readCount": 5047
+    }, {
+      "title": "बच्चों के मन",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/bachcho-ke-man",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d5731246875344896\u0026version\u003d1453629739373",
+      "readurl": "/read?id\u003d5731246875344896",
+      "writeurl": "/write?id\u003d5731246875344896",
+      "ratingCount": 15,
+      "averageRating": 4.8,
+      "readCount": 38383
+    }]
+  }, {
+    "title": "पढ़िए २०१६ की सुपरहीट कहानियाँ...",
+    "url": "/2016-ki-superhit-kahaniya",
+    "bookList": [{
+      "title": "गिद्ध",
+      "author": {
+        "name": "दिव्या शुक्ला",
+        "url": "/divya-shukla"
+      },
+      "url": "/divya-shukla/giddh",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d6218772178272256\u0026version\u003d1464691288703",
+      "readurl": "/read?id\u003d6218772178272256",
+      "writeurl": "/write?id\u003d6218772178272256",
+      "ratingCount": 15,
+      "averageRating": 4.6666665,
+      "readCount": 37254
+    }, {
+      "title": "बदनाम लड़की",
+      "author": {
+        "name": "विनायक शर्मा",
+        "url": "/vinayak-sharma"
+      },
+      "url": "/vinayak-sharma/badnaam-ladki",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5099179002036224\u0026version\u003d1468400192081",
+      "readurl": "/read?id\u003d5099179002036224",
+      "writeurl": "/write?id\u003d5099179002036224",
+      "ratingCount": 17,
+      "averageRating": 4.647059,
+      "readCount": 20605
+    }, {
+      "title": "द्रोपदी",
+      "author": {
+        "name": "ए . असफल ",
+        "url": "/a-asafal"
+      },
+      "url": "/a-asafal/draupadi",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5067758548025344\u0026version\u003d1467713851417",
+      "readurl": "/read?id\u003d5067758548025344",
+      "writeurl": "/write?id\u003d5067758548025344",
+      "ratingCount": 7,
+      "averageRating": 4.714286,
+      "readCount": 11814
+    }, {
+      "title": "दो बाँहें, एक गंध और ख़ालिस रोमांस",
+      "author": {
+        "name": "रजनी मोरवाल",
+        "url": "/rajani-morwal"
+      },
+      "url": "/rajani-morwal/do-baanhe-ek-gandh-aur-khalis-romans",
+      "imageUrl": "http://0.ptlp.co/pratilipi/cover?pratilipiId\u003d5671169677066240\u0026version\u003d1468062470022",
+      "readurl": "/read?id\u003d5671169677066240",
+      "writeurl": "/write?id\u003d5671169677066240",
+      "ratingCount": 15,
+      "averageRating": 4.2,
+      "readCount": 11964
+    }, {
+      "title": "एक अनोखा किस्सा",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/ek-anokha-kissa",
+      "imageUrl": "http://3.ptlp.co/pratilipi/cover?pratilipiId\u003d5646397313384448\u0026version\u003d1459050337293",
+      "readurl": "/read?id\u003d5646397313384448",
+      "writeurl": "/write?id\u003d5646397313384448",
+      "ratingCount": 10,
+      "averageRating": 4.3,
+      "readCount": 40853
+    }, {
+      "title": "चतुर पत्नी",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/chatur-patni",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d4673933099925504\u0026version\u003d1453626533096",
+      "readurl": "/read?id\u003d4673933099925504",
+      "writeurl": "/write?id\u003d4673933099925504",
+      "ratingCount": 6,
+      "averageRating": 4.8333335,
+      "readCount": 63936
+    },
+    {
+      "title": "कहानी का प्लाट ",
+      "author": {
+        "name": "वीणा वत्सल सिंह",
+        "url": "/veena-vatsal-singh"
+      },
+      "url": "/veena-vatsal-singh/kahani-ka-plot",
+      "imageUrl": "http://3.ptlp.co/pratilipi/cover?pratilipiId\u003d5732714139353088\u0026version\u003d1464437483620",
+      "readurl": "/read?id\u003d5732714139353088",
+      "writeurl": "/write?id\u003d5732714139353088",
+      "ratingCount": 8,
+      "averageRating": 4.75,
+      "readCount": 6821
+    }, {
+      "title": "टिटलागढ़ की एक रात",
+      "author": {
+        "name": "विजय कुमार सपत्ती",
+        "url": "/vijay-kumar-sappatti"
+      },
+      "url": "/vijay-kumar-sappatti/titlagarh-ki-ek-raat",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5097490726518784\u0026version\u003d1422255006789",
+      "readurl": "/read?id\u003d5097490726518784",
+      "writeurl": "/write?id\u003d5097490726518784",
+      "ratingCount": 26,
+      "averageRating": 4.1923075,
+      "readCount": 62072
+    }, {
+      "title": "अँधा प्रेम",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/andha-prem",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5129308014116864\u0026version\u003d1453721297934",
+      "readurl": "/read?id\u003d5129308014116864",
+      "writeurl": "/write?id\u003d5129308014116864",
+      "ratingCount": 11,
+      "averageRating": 4.090909,
+      "readCount": 33716
+    }, {
+      "title": "दि परफेक्ट मर्डर",
+      "author": {
+        "name": "विजय कुमार सपत्ती",
+        "url": "/vijay-kumar-sappatti"
+      },
+      "url": "/vijay-kumar-sappatti/the-perfect-murder",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5684997289672704\u0026version\u003d1421931162597",
+      "readurl": "/read?id\u003d5684997289672704",
+      "writeurl": "/write?id\u003d5684997289672704",
+      "ratingCount": 17,
+      "averageRating": 4.470588,
+      "readCount": 44109
+    }, {
+      "title": "वह खौफनाक रात...",
+      "author": {
+        "name": "नीलम मधुर कुलश्रेष्ठ",
+        "url": "/neelam-madhur-kulshreshtha"
+      },
+      "url": "/neelam-madhur-kulshreshtha/wah-khaufnak-raat",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d5396006087688192\u0026version\u003d1467714986066",
+      "readurl": "/read?id\u003d5396006087688192",
+      "writeurl": "/write?id\u003d5396006087688192",
+      "ratingCount": 4,
+      "averageRating": 4.5,
+      "readCount": 5047
+    }, {
+      "title": "बच्चों के मन",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/bachcho-ke-man",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d5731246875344896\u0026version\u003d1453629739373",
+      "readurl": "/read?id\u003d5731246875344896",
+      "writeurl": "/write?id\u003d5731246875344896",
+      "ratingCount": 15,
+      "averageRating": 4.8,
+      "readCount": 38383
+    }]
+  }, {
+    "title": "युवा लेखक और उनकी कहानियाँ",
+    "url": "/yuva-lekhak",
+    "bookList": [{
+      "title": "रंगीन लिबास",
+      "author": {
+        "name": "अभिधा शर्मा",
+        "url": "/abhidha-sharma-sharma"
+      },
+      "url": "/abhidha-sharma-sharma/rangeen-libaas",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d4693293687373824\u0026version\u003d1470924607065",
+      "readurl": "/read?id\u003d4693293687373824",
+      "writeurl": "/write?id\u003d4693293687373824",
+      "ratingCount": 18,
+      "averageRating": 4.7777777,
+      "readCount": 7281
+    }, {
+      "title": "अपना सा अजनबी",
+      "author": {
+        "name": "नेहा अग्रवाल नेह",
+        "url": "/neha-agarwal-neh"
+      },
+      "url": "/neha-agarwl/apna-sa-ajnabi",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d4885297376526336\u0026version\u003d1450337003196",
+      "readurl": "/read?id\u003d4885297376526336",
+      "writeurl": "/write?id\u003d4885297376526336",
+      "ratingCount": 6,
+      "averageRating": 4.8333335,
+      "readCount": 18040
+    }, {
+      "title": "किसान",
+      "author": {
+        "name": "वरुणेन्द्र त्रिवेदी",
+        "url": "/varunendr-trivedi"
+      },
+      "url": "/varunendr-trivedi/kisan",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d6691135276711936\u0026version\u003d1478257280486",
+      "readurl": "/read?id\u003d6691135276711936",
+      "writeurl": "/pratilipi-write?id\u003d6691135276711936",
+      "ratingCount": 8,
+      "averageRating": 5.0,
+      "readCount": 812
+    }, {
+      "title": "मेघन",
+      "author": {
+        "name": "नेहा अग्रवाल नेह",
+        "url": "/neha-agarwal-neh"
+      },
+      "url": "/neha-agarwl/meghan",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d5649257717563392\u0026version\u003d1450336194836",
+      "readurl": "/read?id\u003d5649257717563392",
+      "writeurl": "/write?id\u003d5649257717563392",
+      "ratingCount": 3,
+      "averageRating": 4.6666665,
+      "readCount": 10389
+    }, {
+      "title": "उस पार",
+      "author": {
+        "name": "सिनीवाली शर्मा ",
+        "url": "/siniwali-sharma"
+      },
+      "url": "/siniwali-sharma/us-par",
+      "imageUrl": "http://0.ptlp.co/pratilipi/cover?pratilipiId\u003d5760343657676800\u0026version\u003d1439753734311",
+      "readurl": "/read?id\u003d5760343657676800",
+      "writeurl": "/write?id\u003d5760343657676800",
+      "ratingCount": 5,
+      "averageRating": 4.2,
+      "readCount": 4604
+    }, {
+      "title": "मरुस्थली चिड़िया के सिर्फ तुम",
+      "author": {
+        "name": "संजना तिवारी",
+        "url": "/sanjana-tiwari"
+      },
+      "url": "/sanjana-tiwari/marusthali-chidiya-ke-sirf-tum",
+      "imageUrl": "http://3.ptlp.co/pratilipi/cover?pratilipiId\u003d5719350677864448\u0026version\u003d1439833855926",
+      "readurl": "/read?id\u003d5719350677864448",
+      "writeurl": "/write?id\u003d5719350677864448",
+      "ratingCount": 16,
+      "averageRating": 4.25,
+      "readCount": 10432
+    },
+    {
+      "title": "रंगीन लिबास",
+      "author": {
+        "name": "अभिधा शर्मा",
+        "url": "/abhidha-sharma-sharma"
+      },
+      "url": "/abhidha-sharma-sharma/rangeen-libaas",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d4693293687373824\u0026version\u003d1470924607065",
+      "readurl": "/read?id\u003d4693293687373824",
+      "writeurl": "/write?id\u003d4693293687373824",
+      "ratingCount": 18,
+      "averageRating": 4.7777777,
+      "readCount": 7281
+    }, {
+      "title": "अपना सा अजनबी",
+      "author": {
+        "name": "नेहा अग्रवाल नेह",
+        "url": "/neha-agarwal-neh"
+      },
+      "url": "/neha-agarwl/apna-sa-ajnabi",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d4885297376526336\u0026version\u003d1450337003196",
+      "readurl": "/read?id\u003d4885297376526336",
+      "writeurl": "/write?id\u003d4885297376526336",
+      "ratingCount": 6,
+      "averageRating": 4.8333335,
+      "readCount": 18040
+    }, {
+      "title": "किसान",
+      "author": {
+        "name": "वरुणेन्द्र त्रिवेदी",
+        "url": "/varunendr-trivedi"
+      },
+      "url": "/varunendr-trivedi/kisan",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d6691135276711936\u0026version\u003d1478257280486",
+      "readurl": "/read?id\u003d6691135276711936",
+      "writeurl": "/pratilipi-write?id\u003d6691135276711936",
+      "ratingCount": 8,
+      "averageRating": 5.0,
+      "readCount": 812
+    }, {
+      "title": "मेघन",
+      "author": {
+        "name": "नेहा अग्रवाल नेह",
+        "url": "/neha-agarwal-neh"
+      },
+      "url": "/neha-agarwl/meghan",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d5649257717563392\u0026version\u003d1450336194836",
+      "readurl": "/read?id\u003d5649257717563392",
+      "writeurl": "/write?id\u003d5649257717563392",
+      "ratingCount": 3,
+      "averageRating": 4.6666665,
+      "readCount": 10389
+    }, {
+      "title": "उस पार",
+      "author": {
+        "name": "सिनीवाली शर्मा ",
+        "url": "/siniwali-sharma"
+      },
+      "url": "/siniwali-sharma/us-par",
+      "imageUrl": "http://0.ptlp.co/pratilipi/cover?pratilipiId\u003d5760343657676800\u0026version\u003d1439753734311",
+      "readurl": "/read?id\u003d5760343657676800",
+      "writeurl": "/write?id\u003d5760343657676800",
+      "ratingCount": 5,
+      "averageRating": 4.2,
+      "readCount": 4604
+    }, {
+      "title": "मरुस्थली चिड़िया के सिर्फ तुम",
+      "author": {
+        "name": "संजना तिवारी",
+        "url": "/sanjana-tiwari"
+      },
+      "url": "/sanjana-tiwari/marusthali-chidiya-ke-sirf-tum",
+      "imageUrl": "http://3.ptlp.co/pratilipi/cover?pratilipiId\u003d5719350677864448\u0026version\u003d1439833855926",
+      "readurl": "/read?id\u003d5719350677864448",
+      "writeurl": "/write?id\u003d5719350677864448",
+      "ratingCount": 16,
+      "averageRating": 4.25,
+      "readCount": 10432
+    }]
+  }, {
+    "title": "इस पखवारे नयी प्रकाशित कहानियाँ",
+    "url": "/iss-pakhware",
+    "bookList": [{
+      "title": "काला कैनवास",
+      "author": {
+        "name": "मृदुल पाण्डेय",
+        "url": "/mridul-pandey"
+      },
+      "url": "/mridul-pandey/black-canvas",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d6013584095051776\u0026version\u003d1481781049971",
+      "readurl": "/read?id\u003d6013584095051776",
+      "writeurl": "/pratilipi-write?id\u003d6013584095051776",
+      "ratingCount": 2,
+      "averageRating": 4.5,
+      "readCount": 1639
+    }, {
+      "title": "नए साल का जश्न",
+      "author": {
+        "name": "रमेश शर्मा",
+        "url": "/ramesh-sharma-2"
+      },
+      "url": "/ramesh-sharma-2/naye-saal-kaa-jashn",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d5641631471501312\u0026version\u003d1482065902112",
+      "readurl": "/read?id\u003d5641631471501312",
+      "writeurl": "/pratilipi-write?id\u003d5641631471501312",
+      "ratingCount": 4,
+      "averageRating": 4.5,
+      "readCount": 2550
+    }, {
+      "title": "बकरे की पूंछ",
+      "author": {
+        "name": "Devpalik Gupta",
+        "url": "/author/6232715675303936"
+      },
+      "url": "/pratilipi/6324826215022592",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d6324826215022592\u0026version\u003d1481454669154",
+      "readurl": "/read?id\u003d6324826215022592",
+      "writeurl": "/pratilipi-write?id\u003d6324826215022592",
+      "ratingCount": 1,
+      "averageRating": 3.0,
+      "readCount": 37
+    }, {
+      "title": "मरद",
+      "author": {
+        "name": "वंदना जैन",
+        "url": "/vandana-jain-an-agile-mind"
+      },
+      "url": "/vandana-jain-an-agile-mind/marad",
+      "imageUrl": "http://0.ptlp.co/pratilipi/cover?pratilipiId\u003d5767930991083520\u0026version\u003d1481133576550",
+      "readurl": "/read?id\u003d5767930991083520",
+      "writeurl": "/pratilipi-write?id\u003d5767930991083520",
+      "ratingCount": 4,
+      "averageRating": 4.75,
+      "readCount": 3181
+    }, {
+      "title": "मैं बहुत खुश था और फिर.....",
+      "author": {
+        "name": "धीरज झा",
+        "url": "/dhiraj-jha"
+      },
+      "url": "/dhiraj-jha/main-bahut-khush-tha-aur-fir",
+      "imageUrl": "http://0.ptlp.co/pratilipi/cover?pratilipiId\u003d5173058978447360\u0026version\u003d1480588134633",
+      "readurl": "/read?id\u003d5173058978447360",
+      "writeurl": "/pratilipi-write?id\u003d5173058978447360",
+      "ratingCount": 4,
+      "averageRating": 5.0,
+      "readCount": 1817
+    }, {
+      "title": "बिखरे सपने...!",
+      "author": {
+        "name": "मनीष गोडे",
+        "url": "/ar-manish-gode"
+      },
+      "url": "/ar-manish-gode/deserted-dreams",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d5997832403156992\u0026version\u003d1481093757185",
+      "readurl": "/read?id\u003d5997832403156992",
+      "writeurl": "/pratilipi-write?id\u003d5997832403156992",
+      "ratingCount": 2,
+      "averageRating": 5.0,
+      "readCount": 1515
+    },
+    {
+      "title": "कहानी का प्लाट ",
+      "author": {
+        "name": "वीणा वत्सल सिंह",
+        "url": "/veena-vatsal-singh"
+      },
+      "url": "/veena-vatsal-singh/kahani-ka-plot",
+      "imageUrl": "http://3.ptlp.co/pratilipi/cover?pratilipiId\u003d5732714139353088\u0026version\u003d1464437483620",
+      "readurl": "/read?id\u003d5732714139353088",
+      "writeurl": "/write?id\u003d5732714139353088",
+      "ratingCount": 8,
+      "averageRating": 4.75,
+      "readCount": 6821
+    }, {
+      "title": "टिटलागढ़ की एक रात",
+      "author": {
+        "name": "विजय कुमार सपत्ती",
+        "url": "/vijay-kumar-sappatti"
+      },
+      "url": "/vijay-kumar-sappatti/titlagarh-ki-ek-raat",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5097490726518784\u0026version\u003d1422255006789",
+      "readurl": "/read?id\u003d5097490726518784",
+      "writeurl": "/write?id\u003d5097490726518784",
+      "ratingCount": 26,
+      "averageRating": 4.1923075,
+      "readCount": 62072
+    }, {
+      "title": "अँधा प्रेम",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/andha-prem",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5129308014116864\u0026version\u003d1453721297934",
+      "readurl": "/read?id\u003d5129308014116864",
+      "writeurl": "/write?id\u003d5129308014116864",
+      "ratingCount": 11,
+      "averageRating": 4.090909,
+      "readCount": 33716
+    }, {
+      "title": "दि परफेक्ट मर्डर",
+      "author": {
+        "name": "विजय कुमार सपत्ती",
+        "url": "/vijay-kumar-sappatti"
+      },
+      "url": "/vijay-kumar-sappatti/the-perfect-murder",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5684997289672704\u0026version\u003d1421931162597",
+      "readurl": "/read?id\u003d5684997289672704",
+      "writeurl": "/write?id\u003d5684997289672704",
+      "ratingCount": 17,
+      "averageRating": 4.470588,
+      "readCount": 44109
+    }, {
+      "title": "वह खौफनाक रात...",
+      "author": {
+        "name": "नीलम मधुर कुलश्रेष्ठ",
+        "url": "/neelam-madhur-kulshreshtha"
+      },
+      "url": "/neelam-madhur-kulshreshtha/wah-khaufnak-raat",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d5396006087688192\u0026version\u003d1467714986066",
+      "readurl": "/read?id\u003d5396006087688192",
+      "writeurl": "/write?id\u003d5396006087688192",
+      "ratingCount": 4,
+      "averageRating": 4.5,
+      "readCount": 5047
+    }, {
+      "title": "बच्चों के मन",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/bachcho-ke-man",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d5731246875344896\u0026version\u003d1453629739373",
+      "readurl": "/read?id\u003d5731246875344896",
+      "writeurl": "/write?id\u003d5731246875344896",
+      "ratingCount": 15,
+      "averageRating": 4.8,
+      "readCount": 38383
+    }]
+  }, {
+    "title": "\u0027ऑथर ऑफ़ द वीक\u0027- मनमोहन भाटिया",
+    "url": "/author-of-the-week",
+    "bookList": [{
+      "title": "भूत",
+      "author": {
+        "name": "मनमोहन भाटिया",
+        "url": "/manmohan-bhatia"
+      },
+      "url": "/manmohan-bhatia/bhoot",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5651194554875904\u0026version\u003d1419164170667",
+      "readurl": "/read?id\u003d5651194554875904",
+      "writeurl": "/write?id\u003d5651194554875904",
+      "ratingCount": 7,
+      "averageRating": 4.142857,
+      "readCount": 28946
+    }, {
+      "title": "आईना",
+      "author": {
+        "name": "मनमोहन भाटिया",
+        "url": "/manmohan-bhatia"
+      },
+      "url": "/manmohan-bhatia/aaina",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d5653369754484736\u0026version\u003d1418112353997",
+      "readurl": "/read?id\u003d5653369754484736",
+      "writeurl": "/write?id\u003d5653369754484736",
+      "ratingCount": 3,
+      "averageRating": 3.6666667,
+      "readCount": 15546
+    }, {
+      "title": "आंटी माँ",
+      "author": {
+        "name": "मनमोहन भाटिया",
+        "url": "/manmohan-bhatia"
+      },
+      "url": "/manmohan-bhatia/aunti-ma",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d6315157374369792\u0026version\u003d1417883207121",
+      "readurl": "/read?id\u003d6315157374369792",
+      "writeurl": "/write?id\u003d6315157374369792",
+      "ratingCount": 3,
+      "averageRating": 4.6666665,
+      "readCount": 13912
+    }, {
+      "title": "मस्ती",
+      "author": {
+        "name": "मनमोहन भाटिया",
+        "url": "/manmohan-bhatia"
+      },
+      "url": "/manmohan-bhatia/masti",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d5138966848208896\u0026version\u003d1439752129087",
+      "readurl": "/read?id\u003d5138966848208896",
+      "writeurl": "/write?id\u003d5138966848208896",
+      "ratingCount": 20,
+      "averageRating": 4.15,
+      "readCount": 47123
+    }, {
+      "title": "ईर्षा",
+      "author": {
+        "name": "मनमोहन भाटिया",
+        "url": "/manmohan-bhatia"
+      },
+      "url": "/manmohan-bhatia/irshya",
+      "imageUrl": "http://0.ptlp.co/pratilipi/cover?pratilipiId\u003d5082600544665600\u0026version\u003d1417726734901",
+      "readurl": "/read?id\u003d5082600544665600",
+      "writeurl": "/write?id\u003d5082600544665600",
+      "ratingCount": 5,
+      "averageRating": 4.8,
+      "readCount": 10709
+    }, {
+      "title": "दो हंसों का जोडा",
+      "author": {
+        "name": "मनमोहन भाटिया",
+        "url": "/manmohan-bhatia"
+      },
+      "url": "/manmohan-bhatia/do-hanso-ka-joda",
+      "imageUrl": "http://3.ptlp.co/pratilipi/cover?pratilipiId\u003d5843189715959808\u0026version\u003d1461752636147",
+      "readurl": "/read?id\u003d5843189715959808",
+      "writeurl": "/write?id\u003d5843189715959808",
+      "ratingCount": 3,
+      "averageRating": 5.0,
+      "readCount": 8845
+    },
+    {
+      "title": "कहानी का प्लाट ",
+      "author": {
+        "name": "वीणा वत्सल सिंह",
+        "url": "/veena-vatsal-singh"
+      },
+      "url": "/veena-vatsal-singh/kahani-ka-plot",
+      "imageUrl": "http://3.ptlp.co/pratilipi/cover?pratilipiId\u003d5732714139353088\u0026version\u003d1464437483620",
+      "readurl": "/read?id\u003d5732714139353088",
+      "writeurl": "/write?id\u003d5732714139353088",
+      "ratingCount": 8,
+      "averageRating": 4.75,
+      "readCount": 6821
+    }, {
+      "title": "टिटलागढ़ की एक रात",
+      "author": {
+        "name": "विजय कुमार सपत्ती",
+        "url": "/vijay-kumar-sappatti"
+      },
+      "url": "/vijay-kumar-sappatti/titlagarh-ki-ek-raat",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5097490726518784\u0026version\u003d1422255006789",
+      "readurl": "/read?id\u003d5097490726518784",
+      "writeurl": "/write?id\u003d5097490726518784",
+      "ratingCount": 26,
+      "averageRating": 4.1923075,
+      "readCount": 62072
+    }, {
+      "title": "अँधा प्रेम",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/andha-prem",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5129308014116864\u0026version\u003d1453721297934",
+      "readurl": "/read?id\u003d5129308014116864",
+      "writeurl": "/write?id\u003d5129308014116864",
+      "ratingCount": 11,
+      "averageRating": 4.090909,
+      "readCount": 33716
+    }, {
+      "title": "दि परफेक्ट मर्डर",
+      "author": {
+        "name": "विजय कुमार सपत्ती",
+        "url": "/vijay-kumar-sappatti"
+      },
+      "url": "/vijay-kumar-sappatti/the-perfect-murder",
+      "imageUrl": "http://4.ptlp.co/pratilipi/cover?pratilipiId\u003d5684997289672704\u0026version\u003d1421931162597",
+      "readurl": "/read?id\u003d5684997289672704",
+      "writeurl": "/write?id\u003d5684997289672704",
+      "ratingCount": 17,
+      "averageRating": 4.470588,
+      "readCount": 44109
+    }, {
+      "title": "वह खौफनाक रात...",
+      "author": {
+        "name": "नीलम मधुर कुलश्रेष्ठ",
+        "url": "/neelam-madhur-kulshreshtha"
+      },
+      "url": "/neelam-madhur-kulshreshtha/wah-khaufnak-raat",
+      "imageUrl": "http://2.ptlp.co/pratilipi/cover?pratilipiId\u003d5396006087688192\u0026version\u003d1467714986066",
+      "readurl": "/read?id\u003d5396006087688192",
+      "writeurl": "/write?id\u003d5396006087688192",
+      "ratingCount": 4,
+      "averageRating": 4.5,
+      "readCount": 5047
+    }, {
+      "title": "बच्चों के मन",
+      "author": {
+        "name": "अग्यात",
+        "url": "/agyat-1"
+      },
+      "url": "/agyat-1/bachcho-ke-man",
+      "imageUrl": "http://1.ptlp.co/pratilipi/cover?pratilipiId\u003d5731246875344896\u0026version\u003d1453629739373",
+      "readurl": "/read?id\u003d5731246875344896",
+      "writeurl": "/write?id\u003d5731246875344896",
+      "ratingCount": 15,
+      "averageRating": 4.8,
+      "readCount": 38383
+    }]
+  }]
+}
